@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" />
+  <link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <title>ROXY-KIDS</title>
+</head>
+
+<body class="register-page">
+
+  <main class="container">
+    <form action="">
+    <h1 class="delivery-modal__title modal__title">Заявка на сотрудничество</h1>
+    <div class="delivery-modal__sub-wrapper client-modal__sub-wrapper">
+      <ul class="delivery-modal__list">
+        <li class="delivery-modal__item">
+          <label class="order-address__label order-address__label--fullname">
+            <input class="order-address__input order-address__input--fullname" required type="text">
+            <div class="order-address__placeholder">Имя<span>*</span>
+            </div>
+          </label>
+        </li>
+        <li class="delivery-modal__item">
+          <label class="order-address__label">
+            <input class="order-address__input delivery-modal__placeholder-input" required type="text">
+            <div class="delivery-modal__placeholder order-address__placeholder">Должность
+            </div>
+          </label>
+        </li>
+      </ul>
+
+      <ul class="delivery-modal__list">
+        <li class="delivery-modal__item">
+          <label class="order-address__label order-address__label--fullname">
+            <input class="order-address__input order-address__input--fullname" required type="text">
+            <div class="order-address__placeholder">Фамилия<span>*</span>
+            </div>
+          </label>
+        </li>
+      </ul>
+      <div class="category__sub-wrapper client-modal__fieldset filter__fieldset">
+        <h2 class="filter__legend">Тип организации</h2>
+        <button class="client-modal__button-category button--select button--category" type="button">Фермерско
+          хозяйство (выбрала “Другой” и ввела)</button>
+        <ul class="category__list filter__pop-up">
+          <li class="category__item">
+            <a class="category__link" href="">ИП</a>
+          </li>
+          <li class="category__item">
+            <a class="category__link" href="">ООО</a>
+          </li>
+          <li class="category__item">
+            <a class="category__link" href="">ЗАО</a>
+          </li>
+          <li class="category__item">
+            <a class="category__link" href="">ПАО</a>
+          </li>
+          <li class="category__item">
+            <a class="category__link" href="">Другой (указать)</a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="delivery-modal__list">
+        <li class="delivery-modal__item">
+          <label class="order-address__label order-address__label--news">
+            <input class="order-address__input order-address__input--news" required type="text">
+            <div class="order-address__placeholder">Полное наименование организации<span>*</span>
+            </div>
+          </label>
+        </li>
+        <li class="delivery-modal__item">
+          <label class="order-address__label order-address__label--city">
+            <input class="order-address__input order-address__input--city" required type="text">
+            <div class="order-address__placeholder">Юридический адрес<span>*</span>
+            </div>
+          </label>
+        </li>
+        <li class="delivery-modal__item">
+          <label class="order-address__label order-address__label--mail">
+            <input class="order-address__input order-address__input--mail" required type="text">
+            <div class="order-address__placeholder">E-mail<span>*</span>
+            </div>
+          </label>
+        </li>
+      </ul>
+
+      <ul class="delivery-modal__list">
+        <li class="delivery-modal__item">
+          <label class="order-address__label order-address__label--news">
+            <input class="order-address__input order-address__input--news" required type="text">
+            <div class="order-address__placeholder">ИНН<span>*</span>
+            </div>
+          </label>
+        </li>
+        <li class="delivery-modal__item">
+          <label class="order-address__label order-address__label--phone">
+            <input class="order-address__input order-address__input--phone" required type="text">
+            <div class="order-address__placeholder">Телефон<span>*</span>
+            </div>
+          </label>
+        </li>
+      </ul>
+    </div>
+    <div class="modal__sub-wrapper--ocean">
+      <div class="delivery-modal__sub-wrapper">
+        <div class="category__sub-wrapper client-modal__fieldset client-modal__fieldset--ocean filter__fieldset">
+          <h2 class="filter__legend">Вариант адреса доставки</h2>
+          <button class="client-modal__button-category button--select button--category" type="button">Вариант
+            1</button>
+          <ul class="category__list filter__pop-up">
+            <li class="category__item">
+              <a class="category__link" href="">Вариант 1</a>
+            </li>
+            <li class="category__item">
+              <a class="category__link" href="">Вариант 2</a>
+            </li>
+            <li class="category__item">
+              <a class="category__link" href="">Вариант 3</a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="delivery-modal__list">
+          <li class="delivery-modal__item">
+            <label class="order-address__label order-address__label--fullname">
+              <input class="order-address__input order-address__input--fullname" required type="text">
+              <div class="order-address__placeholder">ФИО получателя<span>*</span>
+              </div>
+            </label>
+          </li>
+          <li class="delivery-modal__item">
+            <label class="order-address__label order-address__label--phone">
+              <input class="order-address__input order-address__input--phone" required type="text">
+              <div class="order-address__placeholder">Телефон получателя<span>*</span>
+              </div>
+            </label>
+          </li>
+        </ul>
+        <ul class="delivery-modal__list">
+          <li class="delivery-modal__item">
+            <label class="order-address__label order-address__label--city">
+              <input class="order-address__input order-address__input--city" required type="text">
+              <div class="order-address__placeholder">Адрес получателя<span>*</span>
+              </div>
+            </label>
+          </li>
+        </ul>
+        <div class="delivery-modal__personal-data personal-data">
+          <input class="personal-data__input visually-hidden radio__input" id="personal-data" type="checkbox">
+          <label class="personal-data__label radio__label" for="personal-data">Отправляя данные с этого сайта, я
+            соглашаюсь на
+            обработку <a href="">персоналных данных</a>. Поля,
+            обязательные для заполнения, помечены символом <span>*</span>
+          </label>
+        </div>
+      </div>
+
+
+
+
+      <div class="delivery-modal__button modal__button">
+        <button class="button--orange button" type="button">Отправить</button>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/range.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/moment.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.daterangepicker.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+  <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+  <script src="js/swiper.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
